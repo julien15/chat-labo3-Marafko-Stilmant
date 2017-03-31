@@ -1,0 +1,13 @@
+Pour lancer le programme en mode client, entrez la commande: start chat.py client.
+Pour lancer le programme en mode server, entrez la commande: start chat.py server.
+
+Le client fonctionne sans le serveur mais l'utilisateur n'aura pas accès à la liste des utilisateurs en ligne.
+Les variables CLIENTADDRESS et SERVERADDRESS situées en lignes 14 et 15 permettent de changer facilement l'IPV4 et le port d'écoute du serveur et du client.
+
+Une fois les deux programmes lancés, le client doit enregistrer un nom de profil avec la commande /nick avant d'entreprendre toute action. 
+La commande /connect permet de se connecter au serveur et de recevoir la liste des pseudos de tous les clients connecté ainsi que leur IPV4 et leur port d'écoute.
+Pour ouvrir une communication avec un autre utilisateur, il faut utiliser la commande /join suivie de l'IPV4 et du port d'écoute de la personne à joindre pouvant être préalablement récupérés à l'aide de la commande /connect.
+Pour quiter le programme correctement, il faut utiliser la commande /exit pour que le programme envoie l'information au serveur, qui retirera l'utlisateur de la liste de clients connectés.
+
+Julien Stilemant 2Ba 6a
+Oscar Marafko 1Ba
